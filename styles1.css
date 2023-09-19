@@ -1,0 +1,82 @@
+/* Apply CSS properties to style the Woodpecker Industry website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8B4513; /* Brown */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    padding: 20px;
+    background-color: #2E8B57; /* Sea Green */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+nav li.login {
+    
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    background-color: #2E8B57; /* Sea Green */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Create a dropdown menu for the Products section */
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #2E8B57; /* Sea Green */
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+main h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+main p{
+    padding-left: 10%;
+    padding-right: 10%;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login - Woodpecker Industry</title>
+</head>
+<body>
+    <header>
+        <h1>Payment Gateway</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a>
+                <ul>
+                    <li><a href="tables.html">Tables</a></li>
+                    <li><a href="chairs.html">Chairs</a></li>
+                    <li><a href="cabinets.html">Cabinets</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <form action="">
+            <h2>User Information</h2>
+    
+            <p>First Name: * <input type="text" name="name" required placeholder="Omkar"></p>
+            <p>Last Name: * <input type="text" name="name" required placeholder="Aher"></p>
+            <p>
+                <fieldset>
+                    <legend>Gender * </legend>
+                        Male <input type="radio" name="gender" id="male" required>
+                        Female <input type="radio" name="gender" id="female" required>
+                </fieldset>
+            </p>
+        <p>
+            Address: <textarea name="address" id="add" cols="100" rows="5" placeholder="Enter your Address"></textarea>
+        </p>
+        <p>Email: * <input type="email" id="email" required placeholder="aher45687@gmail.com"></p>
+        <p>Pincode: * <input type="number" name="pin" id="pin" required placeholder="422 502"></p>
+        <hr>
+        <h2>Payment Gateway</h2>
+        <fieldset>
+            <p>Card Type: *
+                <select name="card_type" id="card" required>
+                        <option value=""> --SELECT CARD TYPE--</option>
+                        <option value="visa"> VISA</option>
+                        <option value="Rupay"> RUPAY</option>
+                        <option value="Mastercard"> MASTERCARD</option>
+                </select>
+                
+            </p>
+            <P>
+                Card no. * <input type="number" name="card no" id="no" required placeholder="1111-2222-3333-4444">
+            </P>
+            <p>
+                Expiration Date: *<input type="date" name="exp_date" id="exp" required>
+            </p>
+            <p>CVV: * <input type="password" name="cvv" id="cvv" required placeholder="123"></p>
+            <h3><input type="submit" value="PAY NOW"></h3>
+        </fieldset>
+       
+    </form>
+    </div>
+
+    <footer>
+        &copy; 2023 Woodpecker Industry
+    </footer>
+</body>
+</html>

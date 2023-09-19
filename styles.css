@@ -1,0 +1,109 @@
+/* Apply CSS properties to style the Woodpecker Industry website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8B4513; /* Brown */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    padding: 20px;
+    background-color: #2E8B57; /* Sea Green */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+nav li.login {
+    
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    background-color: #2E8B57; /* Sea Green */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Create a dropdown menu for the Products section */
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #2E8B57; /* Sea Green */
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+main h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+main img{
+    background-color: bisque;
+    display: flex;
+    block-size: 50%;
+height: 300px;
+
+
+font-weight :400;
+height: 549.994px;
+line-height :25px;
+min-height :550px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+}
+
+main div.bottom-left {
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    position: absolute;
+    color:aqua;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  main h4:hover {
+    border-bottom: 2px solid white;
+}
+/* Add borders, margins, and padding to various elements as needed */
